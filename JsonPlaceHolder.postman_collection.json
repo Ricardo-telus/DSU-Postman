@@ -11,9 +11,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/posts",
+					"raw": "{{URL-JSON}}/posts",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts"
@@ -28,9 +28,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/posts/1",
+					"raw": "{{URL-JSON}}/posts/1",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts",
@@ -55,9 +55,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{Json}}/posts",
+					"raw": "{{URL-JSON}}/posts",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts"
@@ -81,9 +81,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{Json}}/posts/1",
+					"raw": "{{URL-JSON}}/posts/1",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts",
@@ -99,9 +99,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/posts/1",
+					"raw": "{{URL-JSON}}/posts/1",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts",
@@ -117,9 +117,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/posts/1/comments",
+					"raw": "{{URL-JSON}}/posts/1/comments",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"posts",
@@ -136,9 +136,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/users/2/Posts",
+					"raw": "{{URL-JSON}}/users/2/Posts",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"users",
@@ -164,9 +164,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{Json}}/users/1",
+					"raw": "{{URL-JSON}}/users/1",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"users",
@@ -182,9 +182,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{Json}}/users/1",
+					"raw": "{{URL-JSON}}/users/1",
 					"host": [
-						"{{Json}}"
+						"{{URL-JSON}}"
 					],
 					"path": [
 						"users",
@@ -217,7 +217,7 @@
 	],
 	"variable": [
 		{
-			"key": "Json",
+			"key": "URL-json",
 			"value": "https://jsonplaceholder.typicode.com",
 			"type": "string"
 		}
